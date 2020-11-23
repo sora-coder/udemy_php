@@ -18,7 +18,7 @@
 <main>
 <h2>Practice</h2>
 <pre>
-<!-- ここにプログラムを記述します -->
+
 </pre>
 </main>
 </body>
