@@ -17,8 +17,14 @@
 
 <main>
 <h2>Practice</h2>
-    <?php echo(date('n/j(D)')); ?>
-    
+    <?php 
+    for($i=1; $i<=365; $i++){
+        $date = strtotime('+' . $i . 'day');
+        echo(date('n/j(D)', $date));
+        echo('<br>');
+    }
+    ?>
+
 </main>
 </body>
 </html>
