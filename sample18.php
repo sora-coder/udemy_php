@@ -23,6 +23,7 @@
         echo(date('n/j(D)', $date));
         echo('<br>');
     }
+    echo "フォーク作成した";
     ?>
 
 </main>
