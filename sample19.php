@@ -19,7 +19,9 @@
 <h2>Practice</h2>
 <pre>
     <?php
-        echo(date('w'));
+        $week_name = array('土', '月', '火', '水', '木', '金', '土');
+        $week = date('w');
+        echo ($week_name[$week]);
     ?>
 </pre>
 </main>
