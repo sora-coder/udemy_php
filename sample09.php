@@ -19,17 +19,17 @@
 <h2>Practice</h2>
 <pre>
 <?php
-$fruits = [
-    'apple'=>'りんご',
-    'grape'=>'ぶどう',
-    'lemon'=>'レモン',
-    'tomato'=>'トマト',
-    'prach'=>'もも'
-];
-foreach ($fruits as $english => $japanese) {
-    print ($english. ":" . $japanese. "\n");
-}
 
+$fruits = [
+    'apple' => 'りんご',
+    'grape' => 'ぶどう',
+    'lemon' => 'レモン',
+    'tomato' => 'トマト',
+    'peach' => '桃'
+];
+foreach ($fruits as $english => $japanese){
+    echo($english . ':' . $japanese . "\n");
+}
 
 ?>
 
