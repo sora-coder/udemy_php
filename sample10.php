@@ -27,7 +27,13 @@
 
 $x = 0;
 if (!$x) {
-    print ('xは0です');
+    print ('xは0です'. "\n");
+}
+$time = date('G');
+if ($time <= 10 && $time <= 18){
+    echo('営業時間外です');
+} else{
+    echo('営業中です');
 }
 ?>
 
