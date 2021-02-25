@@ -12,29 +12,18 @@
 </head>
 <body>
 <header>
-<h1 class="font-weight-normal">PHP</h1>    
+<h1 class="font-weight-normal">PHP</h1>
 </header>
 
 <main>
 <h2>Practice</h2>
 <pre>
-<?php
-
-$fruits = [
-    'apple' => 'りんご',
-    'grape' => 'ぶどう',
-    'lemon' => 'レモン',
-    'tomato' => 'トマト',
-    'peach' => '桃'
-];
-foreach ($fruits as $english => $japanese){
-    echo($english . ':' . $japanese . "\n");
-}
-
-?>
-
-
+    <?php
+        $week_name = array('土', '月', '火', '水', '木', '金', '土');
+        $week = date('w');
+        echo ($week_name[$week]);
+    ?>
 </pre>
 </main>
-</body>    
+</body>
 </html>
